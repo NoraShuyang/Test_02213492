@@ -9,10 +9,9 @@ public abstract class Staff {
     protected int gpsID;
     protected Color color;
 
-    public Staff(String name, int gpsID, Color color) {
+    public Staff(String name, int gpsID) {
         this.name = name;
         this.gpsID = gpsID;
-        this.color = color;
     }
     public String getName() {
         return name;
